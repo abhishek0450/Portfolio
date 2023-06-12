@@ -1,0 +1,157 @@
+img{
+    max-width:100%;
+    min-width:100%;
+    
+    height:100vh;
+    
+
+  }
+  img{
+    display:block;
+  }
+
+
+  
+  body{
+    margin:0;
+    background-color: beige;
+  }
+  
+  .text-block{
+    display:grid;
+    place-items:center;
+    position:absolute;
+    top:30%;
+    left:70%;
+    color:white;
+    font-weight: bold;
+
+   }
+
+   #name-l{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+   
+    padding-right: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+   }
+
+   #desc-1{
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+
+    padding-right: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+   }
+
+
+   #tribute-info{
+    font-size: 17px;
+    
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 30px;
+    font-family: 'Roboto', sans-serif;
+    
+    
+    letter-spacing: 2px;
+
+   }
+
+#img-div{
+
+}
+
+
+   #img-caption{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(23, 18, 68);
+    text-align: center;
+    margin-top:40px;
+    
+    padding-right: 30px;
+    font-family: 'Roboto', sans-serif;
+    
+    letter-spacing: 2px;
+    
+   }
+
+    #img-caption0{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(23, 18, 68);
+    text-align: center;
+    
+    padding-right: 30px;
+    font-family: 'Roboto', sans-serif;
+    
+    letter-spacing: 2px;
+    
+   }
+
+   #title{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(105, 10, 49);
+    text-align: center;
+   margin:8px;
+    padding-right: 30px;
+    padding-top:26px;
+    font-family: 'Roboto', sans-serif;
+    
+   }
+
+   .para{
+     font-size: 30px;
+    font-weight: bold;
+    color: rgb(105, 10, 49);
+    text-align: center;
+   margin:8px;
+    font-family: 'Roboto', sans-serif;
+   }
+
+   h1{
+    margin: 0;
+   }
+
+   .did{
+      text-align: center;
+   margin:8px;
+    font-family: 'Roboto', sans-serif;
+   }
+
+   .sub{
+      text-align: center;
+   margin:8px;
+    font-family: 'Roboto', sans-serif;
+    background-color:E3F2C1;
+
+    margin:20px;
+   }
+
+   #tribute-info{
+     background-color:F6F1E9;
+     margin:20px;
+      list-style-position: inside;
+      flex-wrap:wrap;
+      gap:1em;
+   }
+
+#image{
+   max-width:100%;
+   height:auto;
+
+}

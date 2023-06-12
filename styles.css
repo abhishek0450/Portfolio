@@ -1,0 +1,200 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #212529;
+    color: #333;
+  }
+  
+    a {
+        text-decoration: none;
+        color: #E6DDC4;
+    }
+
+   .profile_img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+   }
+
+  h1 {
+    color: whitesmoke;
+    font-size: 26px;
+    text-align: center;
+  }
+  #contact{
+    color: whitesmoke;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  #home{
+    color: whitesmoke;
+    font-size: 18px;
+    text-align: center;
+  }
+
+.techstack{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    
+    border-radius: 15%;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+hr{
+    border: 1px solid #46C2CB;
+    width: 80%;
+    margin: 20px auto;
+}
+
+#projects{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+   
+    
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+    .tech_icon{
+        padding-top: 10px;
+        
+    }
+
+  #about{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 15%;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    background-color: #212529;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+ section {
+    padding: 20px;
+    margin: 20px;
+    color: #fff;
+  }
+  
+  .name{
+    color:#F7B633;
+  }
+  
+  h2 {
+    font-size: 22px;
+    
+    margin-bottom: 10px;
+  }
+
+  .head-des{
+    color:#EBEBEB;
+  }
+  
+  p {
+    color: #EAB9C9;
+    margin-bottom: 10px;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+.mail{
+    color: #46C2CB;
+}
+
+  footer p{
+    background-color: #393E46;
+    padding: 10px 20px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .project-img{
+    width: 250px;
+    height: 170px;
+    border-radius: 10%;
+    margin: 20px auto;
+    display: block;
+  }
+
+  #projects{
+    color: whitesmoke;
+    font-size: 18px;
+   
+
+  }
+
+  button{
+    background-color: #46C2CB;
+    color: #000000;
+   border: #000000 1px solid;
+   border-radius: 5%;
+    padding: 10px 20px;
+    margin: 20px auto;
+    display: block;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: black;
+    border: oldlace 1px solid;
+    border-radius: 5%;
+    color: white;
+    transition: 0.3s;
+  }
+
+  h4{
+    color:#FA7D09;
+  }
+
+  .project1{
+    border: #46C2CB 2px solid;
+    margin: 80px auto;
+  }
+  
+  .project2{
+    border: #46C2CB 2px solid;
+    margin: 80px auto;
+  }
+
+  .describe{
+    color:#C7E2B2;
+  }

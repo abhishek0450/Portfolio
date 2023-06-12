@@ -1,0 +1,101 @@
+body{ 
+    margin:0;
+    background-color:#d5e1df;
+  }
+  
+  
+  header{
+     display:flex;
+    justify-content:flex-end;
+   
+    
+    
+   
+  color:white;
+    font-size:18px;
+    padding-right:50px;
+    
+    
+    
+    height:16%;
+   background-color:#3e4444;
+    
+  }
+  
+  .top{
+   
+    width:100%;
+    margin:0;
+    
+    
+    
+  }
+  
+  
+  
+  #title{
+    display:flex;
+    justify-content:center;
+    padding-top:25px;
+    font-family:sans-serif;
+  }
+  
+  #introduction{
+  
+    
+    
+    background-color:#c4c4c4;
+    
+    font-weight:bold;
+    font-family:sans-serif;
+    
+  }
+  
+  .intro{
+    padding-left:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:18px;
+  }
+  
+  #intro{
+    font-size:16px;
+  }
+  #description{
+    font-size:16px;
+  }
+  #survey-form{
+    font-size:16px;
+  }
+  
+  #main{
+    margin:60px;
+  }
+  
+  #footer{
+    display:flex;
+    flex-direction:column; 
+  justify-content:flex-end;
+  width:100%;
+  background-color:#92a8d1;
+  }
+  
+  .footer{
+    font-size:10px;
+    display:flex;
+    justify-content:center;
+  }
+  
+  #submit{
+    margin:70px;
+    
+    display:flex;
+    justify-content:center;
+  }
+  button{
+    padding:8px;
+  }
+  
+  #com{
+  padding:5px; background-color:#c4c4c4;
+  }

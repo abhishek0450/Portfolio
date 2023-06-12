@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="app.css">
+    <title>Survey-Form</title>
+    <section class="top">
+      <header ><h1 class="abc" >ABC Hospital</h1></header>
+    </section>
+
+   
+  
+  </head>
+  <body>
+     <h1 id="title">Patient Health Questionnaire</h1>
+
+<section id="main">
+     <div id="introduction">
+       <p class="intro">Introduction:</p>
+       </div>
+
+       <div>
+         <p id="description"> Thank you for taking the time to complete this survey. We truly value the information you have provided. All the collected data will be used anonymously and will not be sold to third party.</p>
+       </div>
+
+        <div id="introduction">
+       <p class="intro">General Information:</p>
+       </div>
+
+         <div id="form">
+           <form id="survey-form">
+             <div>
+            <label id="name-label" for="name">Name:</label>
+<input type="text" placeholder="Enter your name" required id="name"></text >
+<br><br></div>
+
+<div>
+ <label id="date-label" for="name">D.O.B:</label>
+ <input type="date" required></text><br><br>
+ </div>
+
+ <div>
+ <label id="number-label" for="name">Age:</label>
+ <input type="number" required id="number" placeholder="Enter Age" min="18" max="100"></text><br><br>
+ </div>
+
+<div>
+ <label for="dropdown">Gender:</label>
+<select id="dropdown" name="dropdown">
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+  <option value="Trans">Trans</option>
+ 
+</select>
+<br><br>
+
+ </div>
+
+ <div>
+ <label id="email-label" for="email">Email:</label>
+ <input type="email" required placeholder="Enter you email" id="email"></text>
+ <br><br>
+ </div>
+
+ <div id="introduction">
+       <p class="intro">Questionnaire:</p>
+       </div>
+
+       <div>
+          <p>1. Do you smoke?</p>
+  <label><input type="radio" name="smoke" value="yes"> Yes</label>
+  <label><input type="radio" name="smoke" value="no"> No</label>
+  
+  <p>2. How often do you exercise per week?</p>
+  <label><input type="radio" name="exercise" value="0"> 0 times</label>
+  <label><input type="radio" name="exercise" value="1-2"> 1-2 times</label>
+  <label><input type="radio" name="exercise" value="3-4"> 3-4 times</label>
+  <label><input type="radio" name="exercise" value="5+"> 5+ times</label>
+  
+  <p>3. Do you have any food allergies?</p>
+  <label><input type="radio" name="allergies" value="yes"> Yes</label>
+  <label><input type="radio" name="allergies" value="no"> No</label>
+  
+  <p>4. How many servings of fruits and vegetables do you eat per day?</p>
+  <label><input type="radio" name="fruits-veggies" value="0"> 0 servings</label>
+  <label><input type="radio" name="fruits-veggies" value="1-2"> 1-2 servings</label>
+  <label><input type="radio" name="fruits-veggies" value="3-4"> 3-4 servings</label>
+  <label><input type="radio" name="fruits-veggies" value="5+"> 5+ servings</label>
+  <p>5. Do you have any chronic health conditions? (Check all that apply)</p>
+  <label><input type="checkbox" name="conditions" value="diabetes"> Diabetes</label>
+  <label><input type="checkbox" name="conditions" value="high-blood-pressure"> High blood pressure</label>
+  <label><input type="checkbox" name="conditions" value="heart-disease"> Heart disease</label>
+  <label><input type="checkbox" name="conditions" value="asthma"> Asthma</label>
+  
+  <p>6. How often do you consume fast food or processed foods?</p>
+  <label><input type="checkbox" name="foods" value="never"> Never</label>
+  <label><input type="checkbox" name="foods" value="once-a-week"> Once a week</label>
+  <label><input type="checkbox" name="foods" value="2-3-times-a-week"> 2-3 times a week</label>
+  <label><input type="checkbox" name="foods" value="4-or-more-times-a-week"> 4 or more times a week</label>
+  <br><br>
+       </div>
+
+       <div id="com">
+           <label for="comments">Comments:</label><br>
+  <textarea id="comments" name="comments"></textarea>
+       </div>
+
+        <div >
+                <input type="submit" id="submit" value="Submit">
+             </div>
+             </form>
+             </div>
+
+
+            
+
+             
+
+
+
+
+           
+
+
+     </section>
+     <div id="footer">
+            <p class="footer">Thank you copyright@2023
+              </p>   
+               <div>
+
+    </body>
+    </html>
